@@ -1,0 +1,28 @@
+html {
+  font-size: 18px;
+}
+body {
+  background-color: black;
+}
+
+
+.main-container {
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+.container {
+
+}
+
+.top-box {
+  background-image: url("/Users/MSC/Projects_local/Tortoiseshell/resources/glasses-bg.png");
+  background-size: cover;
+  display: flex;
+  height: 30rem;
+  width: 100%;
+}
+
+.bottom-box {
+  
+}
