@@ -1,28 +1,157 @@
 html {
   font-size: 18px;
+  font-family: Helvetica;
 }
+
 body {
-  background-color: black;
-}
-
-
-.main-container {
-  max-width: 970px;
-  margin: 0 auto;
-}
-
-.container {
-
+  display: block;
 }
 
 .top-box {
-  background-image: url("/Users/MSC/Projects_local/Tortoiseshell/resources/glasses-bg.png");
-  background-size: cover;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 30rem;
-  width: 100%;
+  background-image: url("/Users/MSC/Projects_local/Tortoiseshell/resources/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+
+}
+
+nav.green-bar {
+  font-family: Helvetica;
+  width: 960px;
+  display: flex;
+  background-color: cadetblue;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+  color: white;
+  font-weight: lighter;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 2rem;
+}
+
+.right ul {
+  display: flex;
+  padding-right: 2rem;
+}
+
+.right ul li {
+  padding-left: 2rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: flex-end;
+  width: 960px;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.heading h1 {
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: white;
+  margin-right: -2rem;
 }
 
 .bottom-box {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 960px;
+  height: auto;
+}
+
+.row1 .group1,
+.row1 .group2,
+.row1 .group3 {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  height: 8rem;
+  width: 5rem;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.row1 .group1 img,
+.row1 .group2 img,
+.row1 .group3 img {
+  width: 3.5rem;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+
+}
+
+.row2 .group1,
+.row2 .group2 {
+  width: 35%;
+}
+
+.row2 .group2 {
+  margin-left: 5%;
+}
+
+.row2 .group1 h3,
+.row2 .group2 h3 {
+  width: 10rem;
+  background-color: cadetblue;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  padding: 0.5rem 1.25rem;
+}
+
+.row2 .group1 p,
+.row2 .group2 p {
+  padding: 1rem 0;
+  line-height: 1.4rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  width: 960px;
+  background-color: azure;
+  padding: 4rem 3rem;
+}
+
+.footer-content img {
+  height: 1.5rem;
+}
+
+.footer-content span {
+  padding-left: 1rem;
 }
